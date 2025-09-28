@@ -38,7 +38,7 @@ pip install pmdarima statsmodels prophet pandas-profiling seaborn numpy matplotl
 1. **Import Dataset**
 
    ```python
-   data = pd.read_csv(r'C:\Users\admin\Downloads\NSE-TATAGLOBAL.csv')
+   data = pd.read_csv(r'C:\Users\yohan\Downloads\NSE-TATAGLOBAL.csv')
    ```
 
 2. **Convert Date Column and Reverse Data**
@@ -112,7 +112,3 @@ def sarima_prediction(data):
    arima_prediction(data)
    sarima_prediction(data)
    ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
